@@ -1,0 +1,43 @@
+.cover {
+  height: 230px;
+  border-radius: 3px 3px 0 0;
+  background-image: url("/assets/images/cover/cover05.jpg");
+  /* background-color: white; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.profile-picture {
+  height: 180px;
+  width: 180px;
+  border-radius: 100px;
+  overflow: hidden;
+  position: relative;
+  /* top: 150px; */
+  margin-bottom: -70px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16),
+  0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.avatar {
+  width: 100%;
+}
+
+.profile-nav {
+  border-radius: 0 0 3px 3px;
+  background-color: white;
+}
+
+.navbar {
+  background-color: white!important;
+  border-radius: 0 0 3px 3px;
+}
+
+.nav-link.active {
+  border-bottom: 3px solid #6dafff;
+}
+
+.nav-link h6 {
+  color: grey;
+}
